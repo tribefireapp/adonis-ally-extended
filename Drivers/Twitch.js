@@ -62,7 +62,7 @@ class Twitch extends OAuth2Scheme {
    * @return {String}
    */
   get baseUrl () {
-    return 'https://api.twitch.tv/kraken'
+    return 'https://id.twitch.tv'
   }
 
   /**
@@ -91,7 +91,7 @@ class Twitch extends OAuth2Scheme {
    * @return {String}
    */
   get apiUrl () {
-    return 'https://api.twitch.tv/kraken'
+    return 'https://id.twitch.tv/oauth2'
   }
 
   /**
